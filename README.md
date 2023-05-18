@@ -14,4 +14,4 @@ Status: SUCCESS
 
 Now for the same challenge but using restore instead of reset. The difference in use case would be for a time when an offending file made it to a branch shared by multiple devs as opposed to something like a feature branch. So maybe a PR is made from a feature branch and merged into a branch like `qa` or something similar. Only later to realize a change was made that shouldn't have been included. Using reset, while removing the changes, would also remove branches from git history that could corrupt other users branch history. Restore handles this by removing the offending file or change while keeping the history intact.
 
-Status: PENDING
+Status: SUCCESS
